@@ -1,0 +1,38 @@
+@media screen and (min-width:425px) {
+    .navbar{
+        gap: 3rem;
+    }
+
+}
+
+@media screen and (min-width:600px) {
+    .navbar{
+        align-items: center;
+        justify-content: space-between; 
+        height: 100px;
+        
+    }
+    
+    .emage-logo{
+        width: 130px;
+        align-items: center;
+        justify-content: center;
+        padding-left: 1rem;
+    }
+    
+    .list{
+        flex-direction:row;
+        align-items: center;
+        justify-content: space-around;
+        padding-right: 1rem;
+    }
+    .navbar label{
+        display: inline-flex;
+        align-items: center;
+    }
+    @media screen and (min-width:785px) {
+      .navbar{
+        justify-content: space-between;
+      }
+    }
+}
